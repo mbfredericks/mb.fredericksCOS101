@@ -10,9 +10,11 @@ fn main () {
     let acer_quantity : f64 = 1.0;
     let acer_amount : f64 = 250_000.00;
     // sum
-    let _quantity_sum = toshiba_quantity + mac_quantity + hp_quantity + dell_quantity + acer_quantity;
-    println!("Quantity sum is {:}", );
-    let _amount_sum = toshiba_amount + mac_amount + hp_amount + dell_amount + acer_amount;
-    println!("Amount sum is {:}", );
+    let q = toshiba_quantity + mac_quantity + hp_quantity + dell_quantity + acer_quantity;
+    let  a = toshiba_amount + mac_amount + hp_amount + dell_amount + acer_amount;
+    println!(" Quantity is {} and Amount is {:.2}", q,a);
+    //average
+    let avg = q / a;
+    println!("Average is {:.2}", avg);
 
 }
