@@ -1,6 +1,6 @@
 fn main() {
 
-    let v = vec!["C","O","M","P","U","T","E","R"];
+    let v = vec!['C','O','M','P','U','T','E','R'];
 
     let mut input1 = String::new();
 
@@ -10,7 +10,7 @@ fn main() {
     let index:usize = input1.trim().parse().expect("Invalid input");
 
     //getting value at given index value
-    let ch: &str = v[index];
+    let ch: char = v[index];
 
     print!("{} is the character for index [{}]\n",ch, index);
 }
