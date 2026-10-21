@@ -1,0 +1,5 @@
+Welcome to Rust Programming
+Week 9 - File Input & Output
+Department of Computer Science
+Hello Class
+This is the appendage to the document.
