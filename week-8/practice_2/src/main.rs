@@ -1,4 +1,4 @@
-fn main() {
+ fn main() {
 
     let v = vec!['C','O','M','P','U','T','E','R'];
 
@@ -14,3 +14,4 @@ fn main() {
 
     print!("{} is the character for index [{}]\n",ch, index);
 }
+               
