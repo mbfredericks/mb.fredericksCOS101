@@ -7,7 +7,7 @@ fn main() {
     display(v2);
     //v2 is moved to display and v2 is invalidated
 
-    println!("In main {:?}",display(v2));
+    println!("In main {:?}",display());
     //v2 is no longer usable here
 
 }
